@@ -3,6 +3,7 @@ import '../Tabs/store.dart';
 import '../Tabs/favourite-items.dart';
 import '../Tabs/user-account.dart';
 import '../Tabs/shopping-cart.dart';
+
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
@@ -16,12 +17,12 @@ class _HomePageState extends State<HomePage> {
     Tab(icon: Icon(Icons.account_circle)),
   ];
   List<Widget> tabWidgets = [
-    Store(),//store 
-    ShoppingCart(),//shopping_cart
-    FavouriteItems(),//favourite
-    UserAccount(),//user
+    Store(), //store
+    ShoppingCart(), //shopping_cart
+    FavouriteItems(), //favourite
+    UserAccount(), //user
   ];
-  final appBarbg=Color.fromARGB(255, 42, 192, 126);
+  final appBarbg = Color.fromARGB(255, 42, 192, 126);
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
