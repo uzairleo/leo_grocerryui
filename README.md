@@ -1,6 +1,8 @@
 # leo_grocerryui
 
-A new Flutter project.
+A new Flutter project having a UI of groceryyapp
+
+![](assets/leo_groceryui.gif)
 
 ## Getting Started
 
