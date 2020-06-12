@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
             tabs: tabIcons,
             indicatorColor: Colors.white,
             labelColor: Colors.white,
-            unselectedLabelColor: Colors.black45,
+            unselectedLabelColor: Colors.black38,
           ),
           title: Text('Store'),
           actions: <Widget>[
